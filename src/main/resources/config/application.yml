@@ -1,0 +1,20 @@
+spring:
+    application:
+      name: cs tool
+    datasource:
+        name: test
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://123.57.16.254:3306/cstool?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: 83ieAp9U+!
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+    freemarker:
+      template-loader-path: classpath:/template
+    mvc:
+      static-path-pattern: /**
+
+server:
+  port: 8080

@@ -1,0 +1,38 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.scrollBar {
+  max-height: 444px;
+  overflow: hidden;
+  overflow-y: scroll !important;
+}
+
+.scrollBar::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.0);
+  opacity: 0;
+}
+
+.scrollBar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+  border-radius: 1000px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.scrollBar::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 55rem;
+  }
+}
